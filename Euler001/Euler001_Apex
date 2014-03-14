@@ -1,0 +1,12 @@
+// Euler 001 redone in Apex: Sadie[3/14/2014]
+
+integer sum = 0;
+for (integer i = 0; i< 1000; i++)
+{
+    if ((math.mod(i,3)==0) || (math.mod(i,5)==0))
+    {
+        sum+=i;
+    }
+    
+}
+System.debug(sum);
